@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Netflix Clone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute w-100 px-5">
+    <a class="navbar-brand text-danger fw-bold fs-2" href="#">NETFLIX</a>
+    <div class="ms-auto">
+        <button class="btn btn-danger">Sign In</button>
+    </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero d-flex align-items-center text-center text-white">
+    <div class="container">
+        <h1 class="fw-bold display-4">Unlimited movies, TV shows and more</h1>
+        <h4 class="mt-3">Watch anywhere. Cancel anytime.</h4>
+        <p class="mt-4">Ready to watch? Enter your email to create or restart your membership.</p>
+
+        <div class="row justify-content-center mt-3">
+            <div class="col-md-6 col-12">
+                <div class="input-group">
+                    <input type="email" class="form-control form-control-lg" placeholder="Email address">
+                    <button class="btn btn-danger btn-lg">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 1 -->
+<section class="feature-section text-white py-5 border-top">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2 class="fw-bold">Enjoy on your TV</h2>
+                <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV and more.</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
+                     class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 2 -->
+<section class="feature-section text-white py-5 border-top">
+    <div class="container">
+        <div class="row align-items-center flex-md-row-reverse">
+            <div class="col-md-6">
+                <h2 class="fw-bold">Download your shows to watch offline</h2>
+                <p>Save your favourites easily and always have something to watch.</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
+                     class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ SECTION -->
+<section class="faq-section text-white py-5 border-top">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-4">Frequently Asked Questions</h2>
+
+        <div class="accordion accordion-flush" id="faqAccordion">
+            <div class="accordion-item bg-dark text-white">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed bg-dark text-white"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faq1">
+                        What is Netflix?
+                    </button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies and more.<br>
+                        <br>
+                        you can watch as much as you want without a sigle ad-all for one low monthly price.
+                        
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item bg-dark text-white">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed bg-dark text-white"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faq2">
+                        How much does Netflix cost?
+                    </button>
+                </h2>
+                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Watch Netflix on your smartphone,tablet,smart tv all for one fixed monthly fee. plans range from 149 to 649/month. 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-white py-5 border-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-6 mb-3">
+                <ul class="list-unstyled">
+                    <li>FAQ</li>
+                    <li>Investor Relations</li>
+                    <li>Privacy</li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-6 mb-3">
+                <ul class="list-unstyled">
+                    <li>Help Center</li>
+                    <li>Jobs</li>
+                    <li>Terms of Use</li>
+                </ul>
+            </div>
+        </div>
+        <p class="mt-4 text-muted">Netflix Clone Project</p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
